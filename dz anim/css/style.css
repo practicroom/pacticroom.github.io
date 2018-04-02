@@ -1,0 +1,335 @@
+@font-face {
+  font-family: 'Panton';
+  src: url('Panton-ExtraBold.woff2') format('woff2'), url('Panton-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+.extra-bold {
+  font-family: "Panton";
+}
+@font-face {
+  font-family: 'Panton';
+  src: url('Panton-Light.woff2') format('woff2'), url('Panton-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+.header_logo {
+  width: 356px;
+  height: 46px;
+  font-family: Panton;
+  color: #363636;
+  font-size: 24px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.header_botton {
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  width: 263px;
+  height: 47px;
+  border-color: #282828;
+  margin-top: 20px;
+  margin-left: 14rem;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+.header_botton:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.header_botton span {
+  line-height: 40px;
+  display: block;
+  font-family: Panton;
+  color: #363636;
+  font-size: 26px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+}
+.header_botton span a {
+  color: black;
+  text-decoration: none;
+}
+.header_number {
+  font-family: Panton;
+  color: #363636;
+  font-size: 30px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: left;
+  margin-top: 3rem;
+  margin-left: 14rem;
+  height: 26px;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+nav {
+  height: 93px;
+  width: auto;
+  background-color: #24292c;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+nav ul {
+  color: #ffffff;
+  font-size: 30px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  text-align: center;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.fon {
+  background-image: url(../src/Ỿ頳.png);
+  background-size: cover;
+  width: auto;
+  height: 1064px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.font-logo {
+  font-size: 75px;
+  font-family: "Panton-light";
+  color: white;
+  width: 468px;
+  height: 65px;
+  text-transform: uppercase;
+  margin-top: 32rem;
+  margin-left: 4rem;
+  line-height: 40px;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.font-text {
+  width: 1100px;
+  height: 75px;
+  font-family: Panton;
+  color: #ffffff;
+  font-size: 40px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  right: 26rem;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.font-text-two {
+  font-family: Panton;
+  color: #ffffff;
+  font-size: 24px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  right: 2rem;
+  height: 150px;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.font-text-three {
+  font-family: Panton;
+  color: #ffffff;
+  font-size: 24px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+  margin-right: 5rem;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.arrow {
+  width: 42px;
+  height: 67px;
+  position: relative;
+  left: 52rem;
+  bottom: 1rem;
+}
+.button {
+  background-color: #059feb;
+  width: 350px;
+  height: 66px;
+  border-radius: 30px;
+  margin-left: 10rem;
+  font-family: Panton;
+  color: #ffffff;
+  font-size: 30px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: center;
+  line-height: 60px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+.button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+.font-text-four {
+  font-family: Panton;
+  color: #ffffff;
+  font-size: 24px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10rem;
+  margin-right: 4rem;
+}
+.mouse {
+  width: 36px;
+  height: 58px;
+  display: block;
+  position: relative;
+  left: 25rem;
+  top: 3rem;
+}
+.question {
+  margin-top: 5rem;
+  font-family: Panton;
+  color: #363636;
+  font-size: 36px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  text-align: center;
+}
+.line {
+  background-color: #059feb;
+  width: 177px;
+  height: 5px;
+  margin-left: 19rem;
+  margin-top: 1rem;
+}
+.full-text {
+  font-family: Panton;
+  color: #000000;
+  font-size: 24px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+  width: 1060px;
+  height: 110px;
+  position: relative;
+  right: 230px;
+}
+.user {
+  width: 199px;
+  height: 140px;
+  margin-top: 10rem;
+  margin-left: 12rem;
+}
+.camera {
+  width: 144px;
+  height: 139px;
+  margin-top: 9rem;
+  margin-left: 12rem;
+}
+.youtube {
+  width: 177px;
+  height: 143px;
+  margin-top: 10rem;
+  margin-left: 14rem;
+}
+.tv {
+  width: 195px;
+  height: 128px;
+  margin-top: 10rem;
+  margin-left: 14rem;
+}
+.text_one {
+  font-family: Panton;
+  color: #333333;
+  font-size: 30px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+}
+.text_two {
+  font-family: Panton;
+  color: #333333;
+  font-size: 30px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+  margin-right: 6rem;
+}
+.text_three {
+  font-family: Panton;
+  color: #333333;
+  font-size: 30px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+}
+.text_four {
+  font-family: Panton;
+  color: #333333;
+  font-size: 30px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+}
+.main-down {
+  font-family: Panton;
+  color: #333333;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+}
+.down-text {
+  font-family: Panton;
+  color: #333333;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+}
+.down-text_two {
+  font-family: Panton;
+  color: #333333;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+.down-text_three {
+  font-family: Panton;
+  color: #333333;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2rem;
+}
+.down-text-four {
+  font-family: Panton;
+  color: #333333;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
